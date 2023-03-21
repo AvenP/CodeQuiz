@@ -1,87 +1,70 @@
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    max-width 100%;
 }
-    .wrapper {
-        margin: 100px auto 0 auto;
-        max-width: 600px;
+
+    header {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5%;
+        background-color: #d7a04d;
+        opacity: 0.6;
+        background-image:  linear-gradient(30deg, #9ac8f4 12%, transparent 12.5%, transparent 87%, #9ac8f4 87.5%, #9ac8f4), linear-gradient(150deg, #9ac8f4 12%, transparent 12.5%, transparent 87%, #9ac8f4 87.5%, #9ac8f4), linear-gradient(30deg, #9ac8f4 12%, transparent 12.5%, transparent 87%, #9ac8f4 87.5%, #9ac8f4), linear-gradient(150deg, #9ac8f4 12%, transparent 12.5%, transparent 87%, #9ac8f4 87.5%, #9ac8f4), linear-gradient(60deg, #9ac8f477 25%, transparent 25.5%, transparent 75%, #9ac8f477 75%, #9ac8f477), linear-gradient(60deg, #9ac8f477 25%, transparent 25.5%, transparent 75%, #9ac8f477 75%, #9ac8f477);
+        background-size: 18px 32px;
+        background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
+        font-size: x-large;
     }
   
-    .hide {
-        display: none;
-    }
-  
-    .start {
+    body {
+        margin: 0;
+        font-size: large;
         text-align: center;
     }
+  
+    #countdownTimer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+        margin-right: 5%;
+    }
 
-    .scores {
-        position: absolute;
-        top: 10px;
-        left: 10px;
+    #score_keeper {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+
+    #scoreDisplay {
+        float: left;
+        color: rgb(232, 105, 9);
+        margin-left: 5px;
     }
   
-    .feedback {
-        font-style: italic;
-        font-size: 120%;
-        margin-top: 20px;
-        padding-top: 10px;
-        color: gray;
-        border-top: 2px solid rgb(201, 193, 193);
-    }
-  
-    .timer {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-  
-    a {
+    #scoreDisplay:hover {
+        background-color: #dc05f8;
         color: black;
-        text-decoration: none;
-        transition: color 0.1s;
-    }
-  
-    a:hover {
-        color: #70707a;
     }
   
     button {
-        display: inline-block;
-        margin: 5px;
-        cursor: pointer;
-        font-size: 100%;
-        background-color: teal;
-        border-radius: 5px;
-        padding: 2px 10px;
+        background-color: rgb(229, 69, 1);
         color: white;
-        border: 0;
-        transition: background-color 0.1s;
+        width: auto;
+        border-radius: 15px;
+        height: 50px;
+        font-size: larger;
     }
 
+
     button:hover {
-        background-color: silver;
+        color: rgb(0, 34, 202);
     }
-  
-    .choices button {
-        display: block;
-    }
-  
-    input[type="text"] {
-        font-size: 100%;
-    }
-  
-    ol {
-        padding-left: 0px;
-        max-height: 400px;
-        overflow: auto;
-    }
-  
-    li {
-        padding: 5px;
-        list-style: decimal inside none;
-    }
-  
-    li:nth-child(odd) {
-        background-color: #dfdae7;
+
+    .container {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 0px;
     }
