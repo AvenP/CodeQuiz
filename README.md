@@ -29,5 +29,12 @@ updated part-java file and merged
 start of quiz
 ![image](https://user-images.githubusercontent.com/123212035/226523851-671c7f45-2caa-4769-b887-3235ff867806.png)
 
+quiz question
+![image](https://user-images.githubusercontent.com/123212035/226524099-7bd11e13-0173-4552-a9ba-a99f0a348a21.png)
+
+score at the end
+![image](https://user-images.githubusercontent.com/123212035/226524180-765512dd-666c-4061-b0f4-cac1f02906ad.png)
+
+
 
 
