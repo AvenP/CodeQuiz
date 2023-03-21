@@ -16,13 +16,12 @@ added background color and a hover for the question buttons
 updated part-css file and merged
 
 created part-java file to work on the java section
-
-
-
-
-
-
-
-
-
+made global variables
+set score start at 0
+set the question array
+set the functions for countdown timer and inverval
+made event listener to start the countdown timer and quiz
+made question function to display questions and answers
+end quiz function to show game over and the end score
+made functions to refresh the page 
 updated part-java file and merged
