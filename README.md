@@ -25,3 +25,4 @@ made question function to display questions and answers
 end quiz function to show game over and the end score
 made functions to refresh the page 
 updated part-java file and merged
+
