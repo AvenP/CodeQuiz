@@ -26,3 +26,8 @@ end quiz function to show game over and the end score
 made functions to refresh the page 
 updated part-java file and merged
 
+start of quiz
+![image](https://user-images.githubusercontent.com/123212035/226523851-671c7f45-2caa-4769-b887-3235ff867806.png)
+
+
+
